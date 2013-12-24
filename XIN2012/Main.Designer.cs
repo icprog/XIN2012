@@ -47,6 +47,7 @@
             this.miAboutBox = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -61,7 +62,7 @@
             this.系統管理ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1004, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1004, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -75,7 +76,7 @@
             this.客戶基本資料表ToolStripMenuItem,
             this.結束系統ToolStripMenuItem});
             this.基本資料ToolStripMenuItem.Name = "基本資料ToolStripMenuItem";
-            this.基本資料ToolStripMenuItem.Size = new System.Drawing.Size(81, 23);
+            this.基本資料ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.基本資料ToolStripMenuItem.Text = "基本資料";
             // 
             // 商品基本資料維護ToolStripMenuItem
@@ -117,19 +118,21 @@
             // 進貨作業ToolStripMenuItem
             // 
             this.進貨作業ToolStripMenuItem.Name = "進貨作業ToolStripMenuItem";
-            this.進貨作業ToolStripMenuItem.Size = new System.Drawing.Size(81, 23);
+            this.進貨作業ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.進貨作業ToolStripMenuItem.Text = "進貨作業";
             // 
             // 出貨作業ToolStripMenuItem
             // 
             this.出貨作業ToolStripMenuItem.Name = "出貨作業ToolStripMenuItem";
-            this.出貨作業ToolStripMenuItem.Size = new System.Drawing.Size(81, 23);
+            this.出貨作業ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.出貨作業ToolStripMenuItem.Text = "出貨作業";
             // 
             // 庫存管理ToolStripMenuItem
             // 
+            this.庫存管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2});
             this.庫存管理ToolStripMenuItem.Name = "庫存管理ToolStripMenuItem";
-            this.庫存管理ToolStripMenuItem.Size = new System.Drawing.Size(81, 23);
+            this.庫存管理ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.庫存管理ToolStripMenuItem.Text = "庫存管理";
             // 
             // 系統管理ToolStripMenuItem
@@ -141,7 +144,7 @@
             this.使用者密碼變更ToolStripMenuItem,
             this.miAboutBox});
             this.系統管理ToolStripMenuItem.Name = "系統管理ToolStripMenuItem";
-            this.系統管理ToolStripMenuItem.Size = new System.Drawing.Size(81, 23);
+            this.系統管理ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.系統管理ToolStripMenuItem.Text = "系統管理";
             // 
             // 使用者代碼維護ToolStripMenuItem
@@ -191,6 +194,12 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(158, 19);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(175, 24);
+            this.toolStripMenuItem2.Text = "123";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -232,6 +241,7 @@
         private System.Windows.Forms.ToolStripMenuItem miAboutBox;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
 
