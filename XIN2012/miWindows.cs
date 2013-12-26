@@ -15,7 +15,7 @@ namespace XIN2012
         public miWindows()
         {
             InitializeComponent();
-            //123
+            //123...
         }
     }
 }
